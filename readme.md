@@ -9,7 +9,7 @@ Minitask Membuat Form survey Perokok menggunakan form handle di HTML ,dan juga m
 Pertama install live-server menggunakan npm
 
 ```
-npm i -d live-server
+npm i -D live-server
 ```
 
 Setelah itu tambahkan dev di package.json
