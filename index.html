@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Survey</title>
+</head>
+<body>
+    <form>
+     <div><label for="fullName">Siapa nama anda?</label></div>
+     <input type="text" name="name" id="fullName">
+     <div><label for="umur">Berapa umur  anda?</label></div>
+     <input type="number" name="old" id="umur">
+     
+     <div>
+        <div>
+            <label for="">Apa Jenis Kelamin anda</label>
+        </div>
+        <input type="radio" name="Jenis Kelamin" id="gender1" value="Cowo">
+        <label for="gender1">Laki-Laki</label>
+        <input type="radio" name="Jenis Kelamin" id="gender2" value="Cowo">
+        <label for="gender2">Perempuan</label>
+    </div>
+    <div>
+        <div>
+            <label for="">Apakah anda perokok?</label>
+        </div>
+        <input type="radio" name="rokok" id="ya" value="y">
+        <label for="ya">Ya</label>
+        <input type="radio" name="rokok" id="tidak" value="t">
+        <label for="tidak">Tidak</label>
+    </div>
+    <div>
+       <div> <label for="">Jika anda perokok ,rokok apa yang anda pernah coba?</label></div>
+       <div>
+        <input type="checkbox" name="gudang-garam" value="gudang" id="gudang">
+       <label for="gudang">Gudang Garam Filter</label>
+       </div>
+       <div>
+           <input type="checkbox" name="lucky"value="luck"  id="lucky">
+           <label for="lucky">Lucky Strike</label>
+       </div>
+       <div>
+           <input type="checkbox" name="marl"value="marl"  id="marl">
+           <label for="marl">Marlboro</label>
+       </div>
+       <input type="checkbox" name="esse"value="esse"  id="esse">
+       <label for="esse">Esse</label>
+    </div>
+    <div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
