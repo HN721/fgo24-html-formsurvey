@@ -2,7 +2,7 @@
 
 # Penjelasan
 
-Minitask Membuat Form survey Perokok menggunakan form handle di HTML ,dan juga menambahkan tombol submit dan juga reset dan menambahkan tabel hasil survery dengan total 10 jawaban
+Minitask Membuat Form survey Perokok menggunakan form handle di HTML ,dan juga menambahkan tombol submit dan juga reset dan menambahkan tabel hasil survey dengan total 10 jawaban
 
 # Cara Menjalankan
 
